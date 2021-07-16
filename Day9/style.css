@@ -1,0 +1,35 @@
+.cell{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    margin: 2px;
+    flex-grow: 1;
+}
+.cell:hover
+{
+    /* background-color: rgb(253, 65, 65); */
+    opacity: 90%;
+}
+.counter
+{
+    display: flex;
+    justify-content: center;
+}
+.box
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    width: 100%vw;
+    position: absolute;
+    top:100px;
+    left: 50%;
+    justify-content: center;
+    transform: translateX(-50%);
+    background-color: rgb(250, 159, 159);
+
+}
+.clicked
+{
+    background-color: rgb(238, 66, 66);
+}

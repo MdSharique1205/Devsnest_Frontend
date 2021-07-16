@@ -1,0 +1,25 @@
+.outer {
+  display: grid;
+  margin: auto;
+
+  padding: 5px;
+  width: min(70vw, 70vh);
+  height: min(70vw, 70vh);
+  background-color: rgb(231, 64, 64);
+  grid-template-columns: repeat(20, 1fr);
+  grid-gap: 2px;
+  transform: translate(0, 20%);
+}
+.inner {
+  height: auto;
+  background-color: rgb(206, 23, 48);
+  /* border: 2px solid black; */
+}
+
+.inner:hover {
+  opacity: 0.5;
+}
+
+.clicked {
+  background-color: white;
+}

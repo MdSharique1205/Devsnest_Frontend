@@ -1,0 +1,9 @@
+body{
+    background-color: beige;
+}
+.address{
+    font-weight: bold;
+}
+.topic{
+    text-decoration: underline;
+}

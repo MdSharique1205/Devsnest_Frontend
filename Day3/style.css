@@ -1,0 +1,32 @@
+.column
+{
+    display: flex;   
+}
+.bord
+{
+    border-right: 5px solid rgb(66, 102, 218);
+}
+.col1{
+    width: 40%;
+    color: rgb(66, 102, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between ;
+    padding: 20px;
+}
+.col2{
+    width: 60%;
+    color: rgb(66, 102, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+}
+.resume
+{
+    border: 5px solid rgb(66, 102, 218);
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}

@@ -1,0 +1,15 @@
+#clickme {
+  padding: 20px;
+  background-color: red;
+  color: white;
+}
+#hoverme {
+    padding: 20px;
+  background-color: red;
+  color: white;
+}
+#mousedown {
+    padding: 20px;
+    background-color: red;
+    color: white;
+}
