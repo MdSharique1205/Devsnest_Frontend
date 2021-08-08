@@ -23,3 +23,32 @@
   margin: 0 auto;
   /* align-items: center; */
 }
+.modal
+{
+  position: absolute;
+}
+.bg{
+  /* position: absolute; */
+  background-color: black;
+  opacity: 0.5;
+  height: 100vh;
+  width: 100vw;
+}
+.editField{
+  position: fixed;
+  top: 50%;
+  background-color: beige;
+  left: 50%;
+  /* height: 30%; */
+  width: 30%;
+  align-items: center;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+ .editField .input{
+  position: relative;
+}
+.editField > *{
+  margin: 15px 20px;
+
+}
