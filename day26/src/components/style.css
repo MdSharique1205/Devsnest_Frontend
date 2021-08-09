@@ -1,0 +1,13 @@
+.display, .form {
+    /* position: absolute; */
+    left: 50%;
+    font-size: 1.5em;
+    /* align-items: center; */
+    /* transform: translate(-50%,0); */
+}
+.form input{
+    display: inline-block;
+    width: 30%;
+    height: 30px;
+    margin: 5px;
+}
